@@ -2,6 +2,7 @@
 
 .page {
   background-color: var(--bg-color);
+  background-attachment: fixed;
 }
 
 .header {
@@ -45,7 +46,6 @@
   gap: 10px;
   font-family: 'IBM Plex mono', monospace;
   font-weight: 400;
-  font-style: Regular;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0;
