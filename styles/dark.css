@@ -9,4 +9,17 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg_img_dark: url("../images/cover-image-dark.png");
+  --accent-color: #FF0070;
+  --bg-color: #000028;
+  --accent-color-text: #F1B2CE;
+  --title-color: #DB00FF;
+}
+
+.theme-dark .header_decor_text {
+  visibility: visible;
+}
+
+.theme-dark .section_title {
+  color: var(--accent-color);
 }

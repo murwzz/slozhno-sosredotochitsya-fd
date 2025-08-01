@@ -99,6 +99,11 @@
   border-bottom: 1px solid var(--accent-color);
 }
 
+.header__theme-menu-button_active {
+  pointer-events: none;
+  border: 1px solid var(--accent-color);
+}
+
 .title {
   font-family: 'IBM Plex mono', monospace;
   font-weight: 700;
@@ -106,7 +111,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   letter-spacing: 0;
-  color: #DB00FF;
+  color: var(--title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
   justify-self: start;
   align-self: start;
